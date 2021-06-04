@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+nav {
+  font-size: 24px;
+  text-align: center;
+}
