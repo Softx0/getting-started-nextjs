@@ -35,10 +35,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 Estas propiedades son exclusivas para Next.js
- getStaticProps, es mas a lo gasby, estatico
- serverSideProps, un site dinamico
- getinitialProps, una forma de decir al server las props que tiene que usar el componente
-    usar incluso el api, ejecuta la funcion, devuelve y nice
+-getStaticProps, es mas a lo gasby, estatico
+-serverSideProps, un site dinamico
+-getInitialProps, una forma de decir al server las props que tiene que usar el componente. Puedes usar incluso el api, ejecuta la funcion, devuelve y nice
 
  Hidratacion: proveer a ese html de vida, con una carga previa establecida en el servidor.
  getInitialProps, estara pronto deprecado y pues solo funciona en componentes tipo paginas

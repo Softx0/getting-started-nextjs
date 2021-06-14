@@ -13,14 +13,7 @@ const Home = () => {
       </Head>
 
       <AppLayout>
-        <h1 className={styles.title}>
-          <a className={styles.devter} href="https://nextjs.org">Devtter</a>
-          <nav>
-            <Link className={styles.devit} href="/devit">
-              <a>Timelines</a>
-            </Link>
-          </nav>
-        </h1>
+        
       </AppLayout>
     </>
   )
